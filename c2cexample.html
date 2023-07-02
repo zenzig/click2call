@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Click-to-Call Example</title>
+    <link rel="stylesheet" href="c2cexample.css">
+</head>
+<body>
+    <div class="hero">
+        <div>
+            <h1>Click-to-Call Example</h1>
+            <p>This page showcases a "click-to-call" feature using FreePBX and Asterisk. For this functionality to work, you need to have two SIP phones set up with user accounts for 1001 and 1002. The necessary information for configuring these accounts has been sent to you via email.</p>
+            <p>When you click on the button, a SIP call will be initiated to account 1001. If 1001 answers the call, another call will be placed to account 1002. Once 1002 answers the call, the two calls will be connected, allowing communication between the two accounts.</p>
+            <button id="cta-button" class="cta-button">Call 1001</button>
+            <div id="response-window" class="response-window"></div>
+        </div>
+    </div>
+
+    <script src="c2cexample.js"></script>
+</body>
+</html>
